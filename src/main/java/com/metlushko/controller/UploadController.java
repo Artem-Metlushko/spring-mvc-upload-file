@@ -76,7 +76,7 @@ public class UploadController {
         }
 
         String uploadedFileName = sj.toString();
-        if (StringUtils.isEmpty(uploadedFileName)) {
+        if (!StringUtils.hasLength(uploadedFileName)) {
             redirectAttributes.addFlashAttribute("message", "Please select a file to upload");
         } else {
             redirectAttributes.addFlashAttribute("message", "You successfully uploaded '" + uploadedFileName + "'");

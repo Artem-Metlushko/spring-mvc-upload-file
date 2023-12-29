@@ -1,9 +1,9 @@
 package com.metlushko.conf;
 
+import jakarta.servlet.MultipartConfigElement;
+import jakarta.servlet.ServletRegistration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.MultipartConfigElement;
-import javax.servlet.ServletRegistration;
 import java.io.File;
 
 //http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-multipart
