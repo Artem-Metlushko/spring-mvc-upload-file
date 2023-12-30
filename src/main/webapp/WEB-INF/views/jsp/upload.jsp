@@ -8,5 +8,7 @@
     <input type="submit" value="Submit" />
 </form>
 
+<h2><a href="${pageContext.request.contextPath}/downloadFile">Click here to download the file</a></h2>
+
 </body>
 </html>
